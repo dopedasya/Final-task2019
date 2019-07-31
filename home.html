@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Prod</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/material-icons/material-icons.css">
+   
+</head>
+<body>
+ <script src="./js/carousel.js"></script>
+ <script src="./js/search.js"></script>
+
+    <div class="all-stuff">
+    <header>
+      <div class="header-container">
+
+<!-- logo-space --> 
+        <div class="logo-space">
+         <a id="logo" href="home.html"><h1 id="logo-name">SH</h1></a>  
+        </div>
+
+          
+<!-- menu-navigation-space -->
+        <div class="menu">
+            <nav class="header-menu">
+                    <hr id="invisible_hr">
+                <ul class="menu-navigation">
+                    <li><a href="category-all.html"> Woman</a></li>
+                    <li><a href="category-all.html"> Men</a></li>
+                    <li><a href="category-all.html"> Kids</a></li>
+                    <li><a href="category-all.html"> Coming soon</a></li>
+                </ul>
+            </nav> 
+        </div>
+<!-- search space -->
+
+            <div class="search">
+                    <input type="text" id="search-input" placeholder="Search something..." style="font-family: 'Lato';font-style: italic" ></input>
+                    <button id="search-button"><i class="material-icons" onclick="search()">search</i></button>
+            </div>
+            
+<!-- basket place -->
+        <div class="basket">
+                <a href="shopping-bag.html" class="icon basket">
+                <img width="25px" height ="25px" src="img/shopping-bag.png" alt="" class="basket-content">
+                <p>Basket <span >(0)</span></p>
+                </a>
+        </div>
+            </div>
+            <div><hr id="top_hr"></div>
+       
+    </header> 
+   <!-- main content --> 
+<div class="main">
+    <!-- big text area -->
+    <div class="big-text-ar">
+        <h1>HAZY SHADE OF SPRING</h1>
+        <p class="subheader-italic" id="big-text-subheader">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+        <button class="button" id="text-ar-btn" onClick="location.href = 'category-all.html'">check new arrivals</button>
+    </div>
+    <!-- gallery area -->
+    <div class="gallery">
+        <ul class="ul-gallery">
+            <li class="gallery-element"><a href="category-all.html" class="gallery-a"><div class="gallery-text"></div></a></li>
+            <li class="gallery-element"><a class="gallery-a" a href="product-details.html"><div class="gallery-text"><h2 class>elegant shoes</h2> <p>BRAIDED LEATHER</p></div></a></li>
+            <li class="gallery-element"><a href="category-all.html" class="gallery-a"><div class="gallery-text"></div></a></li>
+            <li class="gallery-element"><a class="gallery-a" a href="product-details.html"><div class="gallery-text"><h2 class>elegant shoes</h2> <p>BRAIDED LEATHER</p></div></a></li>
+            <li class="gallery-element"><a class="gallery-a" a href="product-details.html"><div class="gallery-text"><h2 class>elegant shoes</h2> <p>BRAIDED LEATHER</p></div></a></li>
+            <li class="gallery-element"><a href="category-all.html" class="gallery-a"><div class="gallery-text"></div></a></li>
+            <li class="gallery-element"><a class="gallery-a" a href="product-details.html"><div class="gallery-text"><h2 class>elegant shoes</h2> <p>BRAIDED LEATHER</p></div></a></li>
+            <li class="gallery-element"><a href="category-all.html" class="gallery-a"><div class="gallery-text"></div></a></li>
+        </ul>
+    </div>
+
+    <!-- email area -->
+
+    <div class="email">
+        <h3>sign up to receive our updates</h3>
+        <p class="subhead-italic email-subhead">Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus <span id="hide-span">et ultrices volutpat</span>.</p>
+        <div class="email-input">
+                <input type="text" id="email-input" placeholder="Your e-mail" style="font-family:'Lato'"></input>
+                <button id="email-butt">add</button>
+        </div>
+        
+    </div>
+
+    <!-- slider-area -->
+<div class="slider">
+        
+<div id="slider">
+        <button class="slider-button" id="sliderLeft" onclick="sliderRight()"><img src="./img/right-button.png" alt=""></button>
+    <div id="polosa">
+            <a href="category-all.html"><img  src="./img/lookbook2.jpg" alt="" width="200px" height="120px"></a>
+            <a href="product-details.html"><img  src="./img/lookbook1.jpg" alt="" width="200px" height="120px"></a>
+            <a href="category-all.html"><img  src="./img/lookbook3.jpg" alt="" width="200px" height="120px"></a>
+            <a href="product-details.html"><img  src="./img/lookbook4.jpg" alt="" width="200px" height="120px"></a>
+            <a href="category-all.html"><img  src="./img/lookbook5.jpg" alt="" width="200px" height="120px"></a>
+            <a href="product-details.html"><img  src="./img/lookbook6.jpg" alt="" width="200px" height="120px"></a>
+            <a href="category-all.html"><img  src="./img/lookbook7.jpg" alt="" width="200px" height="120px"></a>
+            <a href="product-details.html"><img  src="./img/lookbook8.jpg" alt="" width="200px" height="120px"></a>
+            <a href="category-all.html"><img  src="./img/lookbook9.jpg" alt="" width="200px" height="120px"></a>
+    </div>
+    <button class = "slider-button"id="sliderRight" onclick="sliderLeft()"><img src="/img/left-button.png" alt=""></button>
+</div>
+
+</div>  
+<hr class="hr-slider">
+
+</div> 
+ <!-- main-area-end-here -->
+
+
+<footer>
+    <div class="footer-list">
+        <ul id="collection" class="footer-element">
+            <li><h2 class="footer-heading">collection</h2></li>
+            <li><a class="footer-link" href="#">Women <span>(1234)</span></a></li>
+            <li><a class="footer-link" href="#">Men <span>(123)</span></a></li>
+            <li><a class="footer-link" href="#">Kids <span>(12)</span></a></li>
+            <li><a class="footer-link" href="#">Coming Soon <span>(132)</span></a></li>
+        </ul></div>
+    
+    
+    <div class="footer-list">
+        <hr class="footer-hr">
+        <ul id="site" class="footer-element">
+            <li><h2 class="footer-heading">site</h2></li>
+            <li><a class="footer-link" href="#">Terms of Service</a></li>
+            <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            <li><a class="footer-link" href="#">Copyright Policy</a></li>
+            <li><a class="footer-link" href="#">Press Kit</a></li>
+            <li><a class="footer-link" href="#">Support</a></li>
+        </ul></div>
+    
+    
+    <div class="footer-list">
+        <hr class="footer-hr">
+        <ul id="shop" class="footer-element">
+            <li><h2 class="footer-heading">shop</h2></li>
+            <li><a class="footer-link" href="#">About us</a></li>
+            <li><a class="footer-link" href="#">Shipping Metods</a></li>
+            <li><a class="footer-link" href="#">Career</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+        </ul></div>
+    
+    
+    <div class="footer-list">
+            <hr class="footer-hr" id="last-hr">
+        <ul id="social" class="footer-element">
+            <li class="social"><h2 class="footer-heading">social</h2></li>
+            <li class="social"><p class="footer-link">Shoper is made with love in Warsaw,</p></li>
+            <li class="social"><p class="footer-link" id="all-rights">2014 &#169; All rights reserved. EI Passion </p></li>
+            <li id="social-buttons">
+            <a class="footer-social-button" href="#"><img  class="icons"src="./img/twit.svg" alt=""></a>
+            <a class="footer-social-button" href="#"><img  class="icons"src="./img/facebook (1).svg" alt=""></a>
+            <a class="footer-social-button" href="#"><img  class="icons"src="./img/inst.svg" alt=""></a></li>
+        </ul></div>
+
+</footer>
+
+
+</div>
+     
+</body>
+</html>
